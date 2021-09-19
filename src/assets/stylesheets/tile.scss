@@ -1,0 +1,23 @@
+.tile{
+    border: 1px solid lightgray;
+    padding: 4px 8px;
+    &_content {
+        width: 60%;
+        display: inline-block;
+        &_head{
+            font-size: 14px;
+            font-weight: bold;
+            display: block;
+        };
+        &_body{
+            font-size: 12px;
+            display: block;
+        }
+    };
+    &_icon{
+        display: inline-block;
+        &_style {
+            width: 30px;
+        }
+    }
+}
